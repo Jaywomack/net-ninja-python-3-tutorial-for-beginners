@@ -25,3 +25,11 @@ print(new_fib)
 
 chars = ['mario', 'luigi', 'bowser']
 print(chars)
+chars.append(5)
+
+print(chars)
+
+nums = [chars, new_fib, [1, 2, 3, 4]]
+print(nums)
+
+print(nums[2][1])
